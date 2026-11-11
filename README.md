@@ -28,6 +28,8 @@ Built with team **Half a Byte** for the BitNBuild 2026 international final.
 
 `pip install halfabyte-synapse` · [PyPI](https://pypi.org/project/halfabyte-synapse/) · Python · FastAPI · React · MCP
 
+<a href="https://pypi.org/project/halfabyte-synapse/"><img src="assets/synapse.jpg" alt="Synapse landing page" width="100%"/></a>
+
 <br/>
 
 #### 🧠 [Memora](https://github.com/rad117/Dementia_project): speech-based cognitive screening
