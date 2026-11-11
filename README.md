@@ -49,11 +49,11 @@ Screens permanently shadowed craters for ice using real ISRO Chandrayaan-2 DFSAR
 L0A bytes. Radar metrics (Pv, CPR, SERD, T-Ratio) rank candidates against the LOLA shadowed-region catalog.
 An Isolation Forest scores ice likelihood per pixel, YOLOv8 finds boulders, and every result names the other
 explanations it could have. Next.js frontend. Smart India Hackathon 2026 internal round, team project
-(private repo).
+(code is private; the demo is public).
 
-Python · scikit-learn · YOLOv8 · Next.js · planetary radar
+[Live demo](https://prism-delta-pied.vercel.app) · Python · scikit-learn · YOLOv8 · Next.js · planetary radar
 
-<img src="assets/prism.png" alt="PRISM radar metrics for candidate crater SP_840980_0797630: Pv, CPR, SERD and T-Ratio maps with the shadowed region outlined" width="100%"/>
+<a href="https://prism-delta-pied.vercel.app/evidence"><img src="assets/prism.jpg" alt="PRISM evidence page: radar signature validation for candidate crater SP-840980" width="100%"/></a>
 
 <br/>
 
