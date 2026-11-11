@@ -44,13 +44,16 @@ Screening aid, not a diagnostic tool.
 
 <br/>
 
-#### 🌙 [Lunar Ice Watch](https://github.com/rad117/lunar_ice_watch): screening lunar south-pole sites for water ice
-Combines radar, thermal and terrain evidence to rank candidate sites in permanently shadowed regions, with
-site comparison and traverse planning. Serverless functions on Vercel, data in MongoDB Atlas.
+#### 🛰️ PRISM: hunting water ice at the Moon's south pole with Chandrayaan-2 radar
+Screens permanently shadowed craters for ice using real ISRO Chandrayaan-2 DFSAR data, read down to the raw
+L0A bytes. Radar metrics (Pv, CPR, SERD, T-Ratio) rank candidates against the LOLA shadowed-region catalog.
+An Isolation Forest scores ice likelihood per pixel, YOLOv8 finds boulders, and every result names the other
+explanations it could have. Next.js frontend. Smart India Hackathon 2026 internal round, team project
+(private repo).
 
-[Live demo](https://lunar-ice-watch.vercel.app) · JavaScript · MongoDB · Vercel
+Python · scikit-learn · YOLOv8 · Next.js · planetary radar
 
-<a href="https://lunar-ice-watch.vercel.app"><img src="assets/lunar.jpg" alt="Lunar Ice Watch landing page" width="100%"/></a>
+<img src="assets/prism.png" alt="PRISM radar metrics for candidate crater SP_840980_0797630: Pv, CPR, SERD and T-Ratio maps with the shadowed region outlined" width="100%"/>
 
 <br/>
 
@@ -71,5 +74,6 @@ and date.
 |---|---|---|
 | [AMRIT](https://github.com/rad117/amrit) | Mission-intelligence platform for ISRO's Bharatiya Antariksh 2026: Chandrayaan-2 DFSAR radar to a landing recommendation, with calibrated ice likelihood, propagated uncertainty and a Monte-Carlo resource estimate (team project) | React · TypeScript · Python |
 | [depexit](https://github.com/rad117/H26_TechLiers_Track1) | Finds risky dependencies in a Python project, asks Gemma 4 for a replacement, applies it in a copy and runs the real tests, then writes a replayable evidence capsule. Team TechLiers, Track 1 | Python · Gemma 4 · Docker |
+| [Lunar Ice Watch](https://github.com/rad117/lunar_ice_watch) | Screens lunar south-pole sites for water ice from radar, thermal and terrain evidence. [Live demo](https://lunar-ice-watch.vercel.app) | JavaScript · MongoDB · Vercel |
 | [Green Class 3D](https://github.com/rad117/greenclass3d) | Three.js classroom that switches lights, fans and AC per row based on where people sit | Three.js · JavaScript |
 | [Steepest Descent Optimizer](https://github.com/rad117/Optimizer) | Full-stack app comparing step-size methods for steepest descent, after Napitupulu et al. (2018) | FastAPI · React |
